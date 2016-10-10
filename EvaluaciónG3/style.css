@@ -1,0 +1,44 @@
+*{
+	font-family: 'Architects Daughter'; 
+	background-color: black;
+
+}
+h1{
+	color: white;
+}
+h4{
+	margin-left: 50px;
+	color: #AAA;
+}
+
+h3{
+	margin-left: 25px;
+	color: white;
+}
+
+#preguntas>h3{
+	margin-top: 30px;
+}
+
+p{
+	margin-left: 50px;
+	color: #AAA;
+}
+
+@media screen and (max-width: 535px) and (max-height: 824px) {
+	*{ 
+	background-color: white; 
+	}
+	h1{
+		color: black;
+	}
+	h4{
+		color: black;
+	}
+	h3{
+		color: black;
+	}
+	p{
+		color: black;
+	}
+}
